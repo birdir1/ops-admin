@@ -1,0 +1,50 @@
+[
+  {
+    "type": "ssh_key",
+    "name": "1ndirim_codex_key",
+    "location": "/Users/shadow/.ssh/1ndirim_codex_key",
+    "usage": "root@37.140.242.105",
+    "status": "active",
+    "notes": "Sunucu erişimi için kullanılan anahtar."
+  },
+  {
+    "type": "ssh_key",
+    "name": "id_ed25519",
+    "location": "/Users/shadow/.ssh/id_ed25519",
+    "usage": "Genel SSH erişimi (kullanım net değil)",
+    "status": "unknown",
+    "notes": "Ne amaçla kullanıldığı netleştirilmeli."
+  },
+  {
+    "type": "ssh_key",
+    "name": "codex_1indirim_ed25519",
+    "location": "/Users/shadow/birdir1/codex_1indirim_ed25519",
+    "usage": "Legacy anahtar (kullanım net değil)",
+    "status": "unknown",
+    "notes": "Gereksizse kaldır/rotate."
+  },
+  {
+    "type": "github_token",
+    "name": "ops-admin PAT",
+    "location": "GitHub",
+    "usage": "ops-admin repo push",
+    "status": "revoke_required",
+    "notes": "Push sonrası iptal edilmeli."
+  },
+  {
+    "type": "firebase_service_account",
+    "name": "indirim-1 adminsdk",
+    "location": "/Users/shadow/Downloads/indirim-1-firebase-adminsdk-fbsvc-78ab40c7ca.json",
+    "usage": "1ndirim backend Firebase Admin",
+    "status": "active",
+    "notes": "Repoya koyma, güvenli kasada sakla."
+  },
+  {
+    "type": "firebase_service_account",
+    "name": "ben-2a979 adminsdk",
+    "location": "/Users/shadow/Downloads/ben-2a979-firebase-adminsdk-fbsvc-fa9da60269.json",
+    "usage": "1ben backend Firebase Admin (ileride)",
+    "status": "active",
+    "notes": "Repoya koyma, güvenli kasada sakla."
+  }
+]

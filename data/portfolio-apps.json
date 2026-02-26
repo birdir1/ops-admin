@@ -11,7 +11,7 @@
     "last_release_at": "2026-02-22",
     "health_url": "https://api.1ndirim.birdir1.com/api/health",
     "public_url": "https://1ndirim.birdir1.com",
-    "notes": "Backend güçlü, mobil app kırıkları kapanıyor."
+    "notes": "Backend + admin + bot canlı. Mobil app testleri kapanıyor."
   },
   {
     "app_id": "1ben",
@@ -24,8 +24,22 @@
     "owner": "birdir1",
     "last_release_at": "2026-02-22",
     "health_url": null,
-    "public_url": "https://1ben.birdir1.com",
-    "notes": "Demo auth ile ilerliyor, store blokörleri kapanıyor."
+    "public_url": null,
+    "notes": "Demo auth ile ilerliyor. Domain tanımlı değil."
+  },
+  {
+    "app_id": "1look",
+    "repo_url": "local only",
+    "platforms": ["ios", "android"],
+    "status": "planning",
+    "build_health": "unknown",
+    "store_health": "unknown",
+    "domain_health": "unknown",
+    "owner": "birdir1",
+    "last_release_at": "N/A",
+    "health_url": null,
+    "public_url": null,
+    "notes": "Yeni uygulama. GitHub repo ve Firebase yok."
   },
   {
     "app_id": "1dovme",
@@ -39,7 +53,7 @@
     "last_release_at": "N/A",
     "health_url": null,
     "public_url": null,
-    "notes": "UI prototype aşamasında, backend ve kalıcı veri katmanı planlanacak."
+    "notes": "UI prototype aşamasında. Backend ve kalıcı veri katmanı planlanacak."
   },
   {
     "app_id": "tar1f",

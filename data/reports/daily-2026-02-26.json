@@ -1,0 +1,56 @@
+{
+  "date": "2026-02-26",
+  "summary": [
+    "Ops panel canlı (https://ops.birdir1.com)",
+    "1ndirim admin /portfolio kaldırıldı",
+    "1look portföye eklendi"
+  ],
+  "apps": [
+    {
+      "app_id": "1ndirim",
+      "repo": "https://github.com/birdir1/1ndirim",
+      "run": "cd /Users/shadow/birdir1/1ndirim/app && flutter run",
+      "firebase": "indirim-1 (android+ios)",
+      "domain": "1ndirim.birdir1.com",
+      "backend": "yes"
+    },
+    {
+      "app_id": "1ben",
+      "repo": "https://github.com/birdir1/1ben",
+      "run": "cd /Users/shadow/birdir1/1ben && flutter run",
+      "firebase": "ben-2a979 (android+ios)",
+      "domain": "none",
+      "backend": "no"
+    },
+    {
+      "app_id": "1look",
+      "repo": "local only",
+      "run": "cd /Users/shadow/birdir1/1look/one_look_app && flutter run",
+      "firebase": "none",
+      "domain": "none",
+      "backend": "no"
+    },
+    {
+      "app_id": "1dovme",
+      "repo": "https://github.com/birdir1/1dovme",
+      "run": "cd /Users/shadow/birdir1/1dovme/dovme_app && flutter run",
+      "firebase": "none",
+      "domain": "none",
+      "backend": "no"
+    },
+    {
+      "app_id": "tar1f",
+      "repo": "https://github.com/birdir1/tar1f",
+      "run": "not ready",
+      "firebase": "tar1f-prod (pending)",
+      "domain": "tar1f.* planned",
+      "backend": "no"
+    }
+  ],
+  "critical_gaps": [
+    "1look GitHub repo yok",
+    "1look Firebase config yok",
+    "1ben domain/DNS yok",
+    "tar1f Firebase rezervasyonu bekliyor"
+  ]
+}

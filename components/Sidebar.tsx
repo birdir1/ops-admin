@@ -25,6 +25,7 @@ const sections: NavSection[] = [
     items: [
       { href: '/checklist', label: 'Checklist' },
       { href: '/inventory', label: 'Envanter' },
+      { href: '/access', label: 'Erişim' },
       { href: '/reports', label: 'Raporlar' },
       { href: '/assets', label: 'Görseller' },
       { href: '/errors', label: 'Hatalar' },
