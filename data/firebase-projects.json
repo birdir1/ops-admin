@@ -19,5 +19,26 @@
     "apps": [],
     "status": "unknown",
     "notes": "Kullanım net değil. Gerek yoksa kapat/temizle."
+  },
+  {
+    "name": "1look",
+    "project_id": "1look-prod (pending)",
+    "apps": ["android", "ios"],
+    "status": "pending",
+    "notes": "Yeni proje açılmadı."
+  },
+  {
+    "name": "1dovme",
+    "project_id": "1dovme-prod (pending)",
+    "apps": ["android", "ios"],
+    "status": "pending",
+    "notes": "Yeni proje açılmadı."
+  },
+  {
+    "name": "tar1f",
+    "project_id": "tar1f-prod (pending)",
+    "apps": ["android", "ios"],
+    "status": "pending",
+    "notes": "Yeni proje açılmadı."
   }
 ]
