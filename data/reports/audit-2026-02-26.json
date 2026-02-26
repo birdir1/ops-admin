@@ -1,7 +1,7 @@
 {
   "date": "2026-02-26",
   "github": {
-    "repos_visible": ["1ndirim", "1ben", "ops-admin"],
+    "repos_visible": ["1ndirim", "1ben", "ops-admin", "1look", "1dovme", "tar1f"],
     "ssh_keys_visible": ["main birdir1"],
     "tokens_visible": ["ops-admin", "Cursor (expired)", "1ndirim-macbook"]
   },

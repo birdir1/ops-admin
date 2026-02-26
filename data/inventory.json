@@ -33,7 +33,7 @@
   },
   {
     "app_id": "1look",
-    "github": "local only (GitHub repo yok)",
+    "github": "https://github.com/birdir1/1look",
     "repo_path": "/Users/shadow/birdir1/1look/one_look_app",
     "run_cmd": "cd /Users/shadow/birdir1/1look/one_look_app && flutter run",
     "backend": false,
@@ -45,11 +45,11 @@
     "domain_status": "missing",
     "server": null,
     "user_data": "Belirsiz (kalıcı storage yok)",
-    "notes": "GitHub repo yok. Firebase config yok."
+    "notes": "GitHub repo var. Firebase config yok."
   },
   {
     "app_id": "1dovme",
-    "github": "not created",
+    "github": "https://github.com/birdir1/1dovme",
     "repo_path": "/Users/shadow/birdir1/1dovme/dovme_app",
     "run_cmd": "cd /Users/shadow/birdir1/1dovme/dovme_app && flutter run",
     "backend": false,
@@ -61,11 +61,11 @@
     "domain_status": "missing",
     "server": null,
     "user_data": "In-memory storage (MVP)",
-    "notes": "GitHub repo yok. Backend MVP scope belirlendi; henüz kurulmadı."
+    "notes": "GitHub repo var. Backend MVP scope belirlendi; henüz kurulmadı."
   },
   {
     "app_id": "tar1f",
-    "github": "not created",
+    "github": "https://github.com/birdir1/tar1f",
     "repo_path": "/Users/shadow/birdir1/tar1f",
     "run_cmd": "henüz run edilebilir app yok",
     "backend": false,
@@ -77,6 +77,6 @@
     "domain_status": "missing (dns/nginx/ssl yok)",
     "server": "37.140.242.105",
     "user_data": "Henüz yok",
-    "notes": "Repo iskelet + brief var. GitHub repo yok. Firebase rezervasyonu bekliyor."
+    "notes": "Repo iskelet + brief var. GitHub repo var. Firebase rezervasyonu bekliyor."
   }
 ]
