@@ -1,0 +1,42 @@
+[
+  {
+    "app_id": "1ndirim",
+    "github": "https://github.com/birdir1/1ndirim",
+    "backend": true,
+    "backend_url": "https://api.1ndirim.birdir1.com",
+    "firebase_project": "indirim-1",
+    "domains": ["1ndirim.birdir1.com", "api.1ndirim.birdir1.com", "admin.1ndirim.birdir1.com"],
+    "server": "37.140.242.105",
+    "notes": "Prod backend + admin + bot aktif."
+  },
+  {
+    "app_id": "1ben",
+    "github": "https://github.com/birdir1/1ben",
+    "backend": false,
+    "backend_url": null,
+    "firebase_project": "ben-2a979",
+    "domains": ["1ben.birdir1.com"],
+    "server": null,
+    "notes": "MVP demo auth; backend yok."
+  },
+  {
+    "app_id": "1dovme",
+    "github": "https://github.com/birdir1/1dovme",
+    "backend": false,
+    "backend_url": null,
+    "firebase_project": null,
+    "domains": [],
+    "server": null,
+    "notes": "Backend MVP scope belirlendi; henüz kurulmadı."
+  },
+  {
+    "app_id": "tar1f",
+    "github": "https://github.com/birdir1/tar1f",
+    "backend": false,
+    "backend_url": null,
+    "firebase_project": "tar1f-prod (pending)",
+    "domains": ["tar1f.birdir1.com", "api.tar1f.birdir1.com", "admin.tar1f.birdir1.com"],
+    "server": "37.140.242.105",
+    "notes": "DNS hazır, Firebase rezervasyonu bekliyor."
+  }
+]
