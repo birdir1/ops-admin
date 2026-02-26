@@ -8,6 +8,14 @@
     "notes": "Sunucu erişimi için kullanılan anahtar."
   },
   {
+    "type": "github_ssh_key",
+    "name": "main birdir1",
+    "location": "GitHub",
+    "usage": "GitHub SSH erişimi",
+    "status": "active",
+    "notes": "GitHub ayarlarında görünen tek anahtar."
+  },
+  {
     "type": "ssh_key",
     "name": "id_ed25519",
     "location": "/Users/shadow/.ssh/id_ed25519",
@@ -30,6 +38,22 @@
     "usage": "ops-admin repo push",
     "status": "revoke_required",
     "notes": "Push sonrası iptal edilmeli."
+  },
+  {
+    "type": "github_token",
+    "name": "Cursor",
+    "location": "GitHub",
+    "usage": "IDE entegrasyonu",
+    "status": "expired",
+    "notes": "Süresi dolmuş, silinmeli."
+  },
+  {
+    "type": "github_token",
+    "name": "1ndirim-macbook",
+    "location": "GitHub",
+    "usage": "repo/workflow erişimi",
+    "status": "unknown",
+    "notes": "Kullanım net değil; gerek yoksa sil."
   },
   {
     "type": "firebase_service_account",

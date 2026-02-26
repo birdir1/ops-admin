@@ -29,7 +29,7 @@
   },
   {
     "app_id": "1look",
-    "repo_url": "local only",
+    "repo_url": "local only (GitHub repo yok)",
     "platforms": ["ios", "android"],
     "status": "planning",
     "build_health": "unknown",
@@ -43,7 +43,7 @@
   },
   {
     "app_id": "1dovme",
-    "repo_url": "https://github.com/birdir1/1dovme",
+    "repo_url": "not created",
     "platforms": ["ios", "android"],
     "status": "planning",
     "build_health": "red",
@@ -53,11 +53,11 @@
     "last_release_at": "N/A",
     "health_url": null,
     "public_url": null,
-    "notes": "UI prototype aşamasında. Backend ve kalıcı veri katmanı planlanacak."
+    "notes": "UI prototype aşamasında. GitHub repo yok. Backend ve kalıcı veri katmanı planlanacak."
   },
   {
     "app_id": "tar1f",
-    "repo_url": "https://github.com/birdir1/tar1f",
+    "repo_url": "not created",
     "platforms": ["ios", "android"],
     "status": "planning",
     "build_health": "unknown",
@@ -67,6 +67,6 @@
     "last_release_at": "N/A",
     "health_url": null,
     "public_url": null,
-    "notes": "Repo/bootstrap planlama aşamasında."
+    "notes": "Repo/bootstrap planlama aşamasında. GitHub repo yok."
   }
 ]

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "1ndirim",
+    "project_id": "indirim-1",
+    "apps": ["android", "ios", "web"],
+    "status": "active",
+    "notes": "1ndirim mobil + backend auth/FCM için kullanılıyor."
+  },
+  {
+    "name": "1ben",
+    "project_id": "ben-2a979",
+    "apps": ["android", "ios"],
+    "status": "active",
+    "notes": "1ben için mevcut. Demo auth var, Firebase hazır."
+  },
+  {
+    "name": "birdir1",
+    "project_id": "birdir1-7049e",
+    "apps": [],
+    "status": "unknown",
+    "notes": "Kullanım net değil. Gerek yoksa kapat/temizle."
+  }
+]

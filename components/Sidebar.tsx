@@ -26,6 +26,7 @@ const sections: NavSection[] = [
       { href: '/checklist', label: 'Checklist' },
       { href: '/inventory', label: 'Envanter' },
       { href: '/access', label: 'Erişim' },
+      { href: '/firebase', label: 'Firebase' },
       { href: '/reports', label: 'Raporlar' },
       { href: '/assets', label: 'Görseller' },
       { href: '/errors', label: 'Hatalar' },

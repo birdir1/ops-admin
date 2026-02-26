@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-26",
+  "github": {
+    "repos_visible": ["1ndirim", "1ben", "ops-admin"],
+    "ssh_keys_visible": ["main birdir1"],
+    "tokens_visible": ["ops-admin", "Cursor (expired)", "1ndirim-macbook"]
+  },
+  "firebase_projects": ["indirim-1", "ben-2a979", "birdir1-7049e"],
+  "domains": {
+    "active": ["1ndirim.*", "ops.birdir1.com"],
+    "missing": ["1ben.*", "1look.*", "1dovme.*", "tar1f.*"],
+    "note": "Wildcard DNS var; Nginx/SSL yoksa domain çalışmaz."
+  },
+  "server": {
+    "memory": "5.8GiB",
+    "disk": "148G",
+    "used_disk": "22G",
+    "note": "Şu an kapasite rahat."
+  },
+  "workspace": [
+    { "path": "1ndirim", "size": "1.7G", "status": "active" },
+    { "path": "1ben", "size": "586M", "status": "active" },
+    { "path": "1dovme", "size": "1.2G", "status": "prototype" },
+    { "path": "1look", "size": "458M", "status": "prototype" },
+    { "path": "ops-admin", "size": "554M", "status": "active" },
+    { "path": "ops", "size": "108K", "status": "legacy" },
+    { "path": "backend__deprecated", "size": "24K", "status": "deprecated" },
+    { "path": "tmp_campaigns.js", "size": "44K", "status": "temporary" }
+  ]
+}

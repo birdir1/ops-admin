@@ -10,6 +10,7 @@
     "firebase_config": { "android": true, "ios": true },
     "app_ids": { "android": "app.indirim.indirim_app", "ios": "com.birdir1.1ndirim" },
     "domains": ["1ndirim.birdir1.com", "api.1ndirim.birdir1.com", "admin.1ndirim.birdir1.com"],
+    "domain_status": "active",
     "server": "37.140.242.105",
     "notes": "Prod backend + admin + bot aktif. Mobil app Firebase Auth + FCM kullanıyor."
   },
@@ -24,12 +25,13 @@
     "firebase_config": { "android": true, "ios": true },
     "app_ids": { "android": "com.birdir1.oneben", "ios": "com.birdir1.oneben" },
     "domains": [],
+    "domain_status": "missing",
     "server": null,
     "notes": "MVP demo auth; backend yok. Domain/DNS tanımlı değil."
   },
   {
     "app_id": "1look",
-    "github": "local only",
+    "github": "local only (GitHub repo yok)",
     "repo_path": "/Users/shadow/birdir1/1look/one_look_app",
     "run_cmd": "cd /Users/shadow/birdir1/1look/one_look_app && flutter run",
     "backend": false,
@@ -38,12 +40,13 @@
     "firebase_config": { "android": false, "ios": false },
     "app_ids": { "android": "com.birdir1.one_look", "ios": "com.birdir1.oneLook" },
     "domains": [],
+    "domain_status": "missing",
     "server": null,
     "notes": "GitHub repo yok. Firebase config yok."
   },
   {
     "app_id": "1dovme",
-    "github": "https://github.com/birdir1/1dovme",
+    "github": "not created",
     "repo_path": "/Users/shadow/birdir1/1dovme/dovme_app",
     "run_cmd": "cd /Users/shadow/birdir1/1dovme/dovme_app && flutter run",
     "backend": false,
@@ -52,12 +55,13 @@
     "firebase_config": { "android": false, "ios": false },
     "app_ids": { "android": "com.birdir1.onedovme", "ios": "com.birdir1.onedovme" },
     "domains": [],
+    "domain_status": "missing",
     "server": null,
-    "notes": "Backend MVP scope belirlendi; henüz kurulmadı."
+    "notes": "GitHub repo yok. Backend MVP scope belirlendi; henüz kurulmadı."
   },
   {
     "app_id": "tar1f",
-    "github": "https://github.com/birdir1/tar1f",
+    "github": "not created",
     "repo_path": "/Users/shadow/birdir1/tar1f",
     "run_cmd": "henüz run edilebilir app yok",
     "backend": false,
@@ -66,7 +70,8 @@
     "firebase_config": { "android": false, "ios": false },
     "app_ids": { "android": null, "ios": null },
     "domains": ["tar1f.birdir1.com", "api.tar1f.birdir1.com", "admin.tar1f.birdir1.com"],
+    "domain_status": "missing (dns/nginx/ssl yok)",
     "server": "37.140.242.105",
-    "notes": "Repo iskelet + brief var. Firebase rezervasyonu bekliyor."
+    "notes": "Repo iskelet + brief var. GitHub repo yok. Firebase rezervasyonu bekliyor."
   }
 ]
