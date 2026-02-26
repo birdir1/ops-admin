@@ -12,6 +12,7 @@
     "domains": ["1ndirim.birdir1.com", "api.1ndirim.birdir1.com", "admin.1ndirim.birdir1.com"],
     "domain_status": "active",
     "server": "37.140.242.105",
+    "user_data": "Firebase Auth + PostgreSQL (kampanya/yorum/puan) + Redis cache",
     "notes": "Prod backend + admin + bot aktif. Mobil app Firebase Auth + FCM kullanıyor."
   },
   {
@@ -27,6 +28,7 @@
     "domains": [],
     "domain_status": "missing",
     "server": null,
+    "user_data": "Local device (SharedPreferences), demo auth",
     "notes": "MVP demo auth; backend yok. Domain/DNS tanımlı değil."
   },
   {
@@ -42,6 +44,7 @@
     "domains": [],
     "domain_status": "missing",
     "server": null,
+    "user_data": "Belirsiz (kalıcı storage yok)",
     "notes": "GitHub repo yok. Firebase config yok."
   },
   {
@@ -57,6 +60,7 @@
     "domains": [],
     "domain_status": "missing",
     "server": null,
+    "user_data": "In-memory storage (MVP)",
     "notes": "GitHub repo yok. Backend MVP scope belirlendi; henüz kurulmadı."
   },
   {
@@ -72,6 +76,7 @@
     "domains": ["tar1f.birdir1.com", "api.tar1f.birdir1.com", "admin.tar1f.birdir1.com"],
     "domain_status": "missing (dns/nginx/ssl yok)",
     "server": "37.140.242.105",
+    "user_data": "Henüz yok",
     "notes": "Repo iskelet + brief var. GitHub repo yok. Firebase rezervasyonu bekliyor."
   }
 ]

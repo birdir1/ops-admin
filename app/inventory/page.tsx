@@ -21,6 +21,7 @@ export default function InventoryPage() {
                 <th className="p-2">Domains</th>
                 <th className="p-2">Domain Durumu</th>
                 <th className="p-2">Server</th>
+                <th className="p-2">Kullanıcı Verisi</th>
                 <th className="p-2">Notes</th>
               </tr>
             </thead>
@@ -48,6 +49,7 @@ export default function InventoryPage() {
                   <td className="p-2">{(row.domains || []).join(', ') || '-'}</td>
                   <td className="p-2">{row.domain_status || '-'}</td>
                   <td className="p-2">{row.server || '-'}</td>
+                  <td className="p-2">{row.user_data || '-'}</td>
                   <td className="p-2">{row.notes}</td>
                 </tr>
               ))}

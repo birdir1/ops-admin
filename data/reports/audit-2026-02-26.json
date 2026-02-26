@@ -6,6 +6,9 @@
     "tokens_visible": ["ops-admin", "Cursor (expired)", "1ndirim-macbook"]
   },
   "firebase_projects": ["indirim-1", "ben-2a979", "birdir1-7049e"],
+  "decisions": {
+    "1ben_firebase": "yes"
+  },
   "domains": {
     "active": ["1ndirim.*", "ops.birdir1.com"],
     "missing": ["1ben.*", "1look.*", "1dovme.*", "tar1f.*"],
